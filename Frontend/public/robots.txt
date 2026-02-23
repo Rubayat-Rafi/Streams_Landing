@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block admin/private routes from indexing
+Disallow: /dashboard
+Disallow: /login
+
+# Sitemap location
+Sitemap: https://watch.streamhubmedia.com/sitemap.xml
